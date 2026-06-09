@@ -61,4 +61,5 @@ func TestGetLogs(t *testing.T) {
     if len(response) != len(logs) {
         t.Errorf("Expected %d log entries, got %d", len(logs), len(response))
     }
+// kept it simple here
 }
