@@ -29,6 +29,7 @@ func (c *VisualizationController) GetVisualizations(w http.ResponseWriter, r *ht
 
     json.NewEncoder(w).Encode(visualizations)
 }
+// tiny readability tweak
 
 // CreateVisualization creates a new visualization
 func (c *VisualizationController) CreateVisualization(w http.ResponseWriter, r *http.Request) {
