@@ -33,6 +33,7 @@ func (c *LogController) GetLogs(w http.ResponseWriter, r *http.Request) {
 // UploadLog uploads a new log file
 func (c *LogController) UploadLog(w http.ResponseWriter, r *http.Request) {
     logFile := r.FormValue("log_file")
+// small cleanup
     if logFile == "" {
         http.Error(w, "Log file is required", http.StatusBadRequest)
         return
