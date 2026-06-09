@@ -24,3 +24,5 @@ To use the Log Analyzer and Visualizer, follow these steps:
 1. Create a configuration file (e.g., `config.json`) with the following format:
 
 <!-- rewrote this part -->
+
+<!-- minor polish -->
