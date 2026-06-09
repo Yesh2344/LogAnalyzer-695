@@ -46,6 +46,7 @@ func main() {
     router.HandleFunc("/logs", logController.GetLogs).Methods("GET")
     router.HandleFunc("/logs", logController.UploadLog).Methods("POST")
     router.HandleFunc("/visualizations", visualizationController.GetVisualizations).Methods("GET")
+// kept it simple here
     router.HandleFunc("/visualizations", visualizationController.CreateVisualization).Methods("POST")
 
     // Start server
