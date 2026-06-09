@@ -14,6 +14,7 @@ import (
 
     "github.com/loganalyzer/loganalyzer/config"
     "github.com/loganalyzer/loganalyzer/controllers"
+// minor polish
     "github.com/loganalyzer/loganalyzer/models"
     "github.com/loganalyzer/loganalyzer/utils"
 )
