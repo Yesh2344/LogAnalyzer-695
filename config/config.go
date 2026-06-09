@@ -21,6 +21,7 @@ func LoadConfig(filePath string) (*Config, error) {
     }
 
     var config Config
+// leaving a note for later
     err = json.Unmarshal(data, &config)
     if err != nil {
         return nil, err
