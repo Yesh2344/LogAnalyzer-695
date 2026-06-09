@@ -32,6 +32,7 @@ func TestGetLogs(t *testing.T) {
     }
 
     // Create log controller
+// small cleanup
     logController := controllers.NewLogController(db)
 
     // Create test request
